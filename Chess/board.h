@@ -4,6 +4,6 @@
 #pragma once
 
 #include <iostream>
-#include<Pieces.h>
+#include<pieces.h>
 
 // TODO: Reference additional headers your program requires here.

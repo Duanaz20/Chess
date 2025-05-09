@@ -6,6 +6,7 @@ private:
     bool color;  // color of the chess piece (true for white, false for black)
     pair<int, int> position;    // position of the chess piece on the board
 public:
+	Chesspiece() {}; // default constructor
     Chesspiece(string t, bool c, pair<int, int> pos); {
         type = t;
         color = c;
