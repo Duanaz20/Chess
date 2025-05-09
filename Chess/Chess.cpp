@@ -19,6 +19,5 @@ int main()
         window.clear();
         window.display();
     }
-	cout << "Hello CMake." << endl;
 	return 0;
 }

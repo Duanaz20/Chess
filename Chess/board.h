@@ -4,6 +4,7 @@
 #pragma once
 
 #include <iostream>
-#include<pieces.h>
+#include "pieces.h"
+#include <vector>
 
 // TODO: Reference additional headers your program requires here.
