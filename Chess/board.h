@@ -1,10 +1,14 @@
-﻿// Chess.h : Include file for standard system include files,
-// or project specific include files.
-
-#pragma once
-
-#include <iostream>
-#include "pieces.h"
+﻿#pragma once
+#include <SFML/Graphics.hpp>
+#include "pieces.h" // Include the pieces header
 #include <vector>
+#include <iostream>
 
-// TODO: Reference additional headers your program requires here.
+
+class Board {
+public:
+    static const int SIZE = 8;          // 8x8 board
+    static const int TILE_SIZE = 100;   // 100 pixels per tile
+
+    void draw(sf::RenderWindow& window);
+};

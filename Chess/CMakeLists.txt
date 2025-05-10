@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (Chess "Chess.cpp" "board.h" "pieces.h")
+add_executable (Chess "Chess.cpp" "board.h" "pieces.h" "board.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Chess PROPERTY CXX_STANDARD 20)
