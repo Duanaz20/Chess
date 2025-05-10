@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Chess Test");
+    sf::RenderWindow window(sf::VideoMode(800, 800), "SFML Chess Test");
 
     // Create a test pawn (white, at position (3, 3))
     //Pawn testPawn(true, { 3, 3 }); // x=3, y=3 — means (300px, 300px)
